@@ -1,5 +1,10 @@
 require('dotenv').config();
 
+const dbConnect = require('./dbConnect');
+
+dbConnect();
+
+
 
 let Person;
 
